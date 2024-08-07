@@ -1,0 +1,194 @@
+p.section-head {
+    font-size: x-large;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    line-height: 1.2em;
+    font-weight: 500;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 1em;
+    background-color: #CBFF4D;
+    color: #035aa6;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: black;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#img {
+    height: 50%;
+    width: 100%;
+}
+
+#text {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#SVM {
+    width: 50%;
+    margin-left: -6em;
+    margin-top: 1em;
+}
+
+#MLC {
+    width: 50%;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+.ui-helper-hidden {
+    display: none;
+}
+
+.ui-helper-hidden-accessible {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+}
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+
+/* The slider itself */
+
+.slider {
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 2.5px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#khelobc {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#canvas_box {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+#optsdiv {
+    width: 50%;
+    height: 100%;
+}
+
+.ui-slider a {
+    outline: orange;
+}
+
+#slider_box {
+    width: 490px;
+    height: 100%;
+    display: flex;
+    margin-left: 115px;
+    margin-right: 115px;
+    flex-direction: column;
+}
+
+#slider1_box {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+#slider2_box {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+#slider3_box {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+#slider1 {
+    width: 250px;
+}
+
+#rider {
+    width: 250px;
+}
+
+#provider {
+    width: 250px;
+}
+
+#creport {
+    width: 250px;
+    margin-top: 10px;
+}
+
+#report {
+    width: 250px;
+    margin-top: 10px;
+}
+
+#preport {
+    width: 250px;
+    margin-top: 10px
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
